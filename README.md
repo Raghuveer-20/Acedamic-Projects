@@ -1,135 +1,97 @@
 # FPGA-Based Autonomous Disinfection Robot
 
-## Overview
+## Project Overview
 
-The FPGA-Based Autonomous Disinfection Robot is an intelligent robotic system designed to perform autonomous indoor sanitization while minimizing human exposure to infectious pathogens. The robot uses an FPGA as the central processing unit to perform real-time parallel processing for obstacle detection, motor control, and disinfection management.
+This project presents an FPGA-Based Autonomous Disinfection Robot designed to provide safe and efficient indoor sanitization with minimal human intervention.
 
-The system integrates ultrasonic sensors for obstacle avoidance, a camera for real-time video monitoring, and PWM-controlled DC motors for autonomous navigation. Based on sensor inputs, the FPGA activates the disinfection module to sanitize the surrounding environment efficiently.
-
----
-
-## Features
-
-* Autonomous Navigation
-
-* Real-Time Obstacle Detection
-
-* Ultrasonic Sensor-Based Obstacle Avoidance
-
-* Camera-Based Live Monitoring
-
-* FPGA Parallel Processing
-
-* PWM-Based DC Motor Speed Control
-
-* Automated Disinfection System
-
-* High-Speed Real-Time Decision Making
-
-* Energy Efficient Hardware Implementation
+The robot autonomously navigates through indoor environments using ultrasonic sensors for obstacle detection and avoidance. An FPGA performs high-speed parallel processing for real-time sensor data acquisition, navigation control, motor control, and disinfection management. A camera provides live video monitoring, while the disinfection module (UV-C light or Dry Fog Sanitizer) sanitizes targeted areas automatically.
 
 ---
 
 ## Hardware Components
 
-* DE10-Nano FPGA Development Board
-
-* Ultrasonic Sensors (HC-SR04)
-
-* Logitech USB Camera
-
-* L298N Motor Driver
-
-* DC Geared Motors
-
-* Robot Chassis
-
-* Power Supply (12V Battery)
-
-* UV-C Light / Dry Fog Disinfection Module
+- DE10-Nano FPGA Development Board
+- Ultrasonic Sensors (HC-SR04)
+- Logitech USB Camera
+- L298N Motor Driver
+- DC Geared Motors
+- Robot Chassis
+- 12V Battery
+- UV-C Light / Dry Fog Disinfection Module
 
 ---
 
-## Software Used
+## Software Components
 
-* Verilog HDL
+- Verilog HDL
+- Intel Quartus Prime
+- ModelSim
+- FPGA Design
+- Embedded System Design
 
-* Intel Quartus Prime
+---
 
-* ModelSim
+## Features
 
-* FPGA Programmer
-
-* Embedded System Design
+- Autonomous Indoor Navigation
+- Real-Time Obstacle Detection
+- Ultrasonic Sensor-Based Obstacle Avoidance
+- Camera-Based Live Monitoring
+- FPGA Parallel Processing
+- PWM-Based DC Motor Control
+- Automatic Disinfection Activation
+- High-Speed Real-Time Decision Making
+- Low-Latency Hardware Processing
 
 ---
 
 ## System Architecture
 
-Ultrasonic Sensors + Camera → FPGA (DE10-Nano) → Obstacle Detection & Decision Logic → PWM Motor Control → Motor Driver → DC Motors → Autonomous Navigation → Disinfection Module
+Ultrasonic Sensors + Camera → FPGA Processing → Obstacle Detection → Navigation Control → PWM Motor Control → Motor Driver → DC Motors → Disinfection Module
 
 ---
 
-## Applications
+## Project Prototype
 
-* Hospitals
-
-* Healthcare Centers
-
-* Laboratories
-
-* Schools and Colleges
-
-* Airports
-
-* Offices
-
-* Shopping Malls
-
-* Public Buildings
+Autonomous Disinfection Robot Prototype
 
 ---
 
-## Key Highlights
+## Project Demonstration
 
-* Designed using FPGA for true parallel processing.
-
-* Real-time sensor data processing with minimal latency.
-
-* Autonomous obstacle avoidance using ultrasonic sensors.
-
-* Precise DC motor control using FPGA-generated PWM signals.
-
-* Camera-based monitoring for enhanced navigation.
-
-* Modular architecture for future hardware upgrades.
-
-* Low-power, scalable, and reliable robotic solution.
+Demo video available in the **Videos** folder.
 
 ---
 
-## Future Scope
+## Performance
 
-* AI-Based Path Planning
-
-* SLAM (Simultaneous Localization and Mapping)
-
-* Wireless IoT Monitoring
-
-* Cloud-Based Robot Management
-
-* Battery Health Monitoring
-
-* Multi-Robot Coordination
-
-* ROS (Robot Operating System) Integration
+| Parameter | Value |
+|-----------|-------|
+| Obstacle Detection | Real-Time |
+| Processing Platform | FPGA (DE10-Nano) |
+| Navigation | Autonomous |
+| Motor Control | PWM Based |
+| Processing | Parallel Hardware Processing |
+| Response Time | Low Latency |
 
 ---
 
-## Developer
+## Future Enhancements
+
+- AI-Based Path Planning
+- SLAM Navigation
+- IoT Remote Monitoring
+- ROS Integration
+- Battery Health Monitoring
+- Multi-Robot Coordination
+- Autonomous Docking and Charging
+
+---
+
+## Authors
 
 **V. Raghuveer**
 
-Department of Electronics and Communication Engineering (ECE)
+Electronics and Communication Engineering (ECE)
 
 Vasireddy Venkatadri Institute of Technology (VVIT)
